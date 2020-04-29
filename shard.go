@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/mangotree2/bigcache/queue"
+	"github.com/allegro/bigcache/queue"
 )
 
 type onRemoveCallback func(wrappedEntry []byte, reason RemoveReason)
